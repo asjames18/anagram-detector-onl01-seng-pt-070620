@@ -9,7 +9,7 @@ def initialize (word)
 end
 
 def match(array)
-  array.select do |w| 
+  array.select do |w|
     w.split("")
     binding.pry
   end
