@@ -9,7 +9,7 @@ def initialize (detector)
 end
 
 def match(array)
-# newArray = array.select {|x| x.split("")
+newArray = array.select {|x| x.split("")
 binding.pry
 end
 end
