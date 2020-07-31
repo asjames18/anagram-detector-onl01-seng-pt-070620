@@ -1,17 +1,18 @@
 require 'pry'
 class Anagram
 
-  attr_accessor :detector
+  attr_accessor :word
 
-def initialize (detector)
-  @detector = detector
+def initialize (word)
+  @word = word
 
 end
 
 def match(array)
-  # array.select {|names| names.split("")}
-
-binding.pry
+  array.select do |w| 
+    w.split("")
+    binding.pry
+  end
 end
 
 end
