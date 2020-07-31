@@ -8,7 +8,7 @@ def initialize (detector)
 end
 
 def match(letter)
-  letter = %w().split
+  letter.split ("")
 
 end
 
