@@ -8,7 +8,7 @@ def initialize (detector)
 end
 
 def match(array)
-  array.split ("")
+  array.select {|names| names.split("")}
 
 
 end
