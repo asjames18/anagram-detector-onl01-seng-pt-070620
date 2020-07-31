@@ -8,9 +8,9 @@ def initialize (detector)
 end
 
 def match(array)
-  array.select {|names| names.split("")}
+  # array.select {|names| names.split("")}
 
-
+binding.pry
 end
 
 end
