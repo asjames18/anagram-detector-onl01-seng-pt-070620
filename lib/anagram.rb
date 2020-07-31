@@ -13,4 +13,3 @@ newArray = array.select {|x| x.split("")
 end
 binding.pry
 end
-end
