@@ -8,6 +8,7 @@ def initialize (detector)
 end
 
 def match(array)
+  array.split ("")
 
 
 end
