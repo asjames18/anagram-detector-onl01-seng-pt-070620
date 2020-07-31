@@ -7,8 +7,8 @@ def initialize (detector)
 
 end
 
-def match(letter)
-  letter.split ("")
+def match(array)
+
 
 end
 
